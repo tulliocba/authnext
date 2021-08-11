@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    border-radius: 25px;;
+    background-color: #e0e0e0;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container form input{
+    margin: 10px;
+}
